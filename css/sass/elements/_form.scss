@@ -1,0 +1,52 @@
+.showcase-form {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: $orange-200;
+    width: 420px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 3px;
+
+    legend {
+        font-size: 2.4375rem;
+        font-weight: 700;
+        color: $orange-200;
+        background-color: $white;
+        padding-top: 35px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        height: 40px;
+        width: 380px;
+        border-color: $white;
+        margin: 0 20px 10px;
+        background-color: $orange-100;
+        // margin-bottom: 10px;
+    }
+
+    ::placeholder {
+        font-size: 0.875rem;
+        color: $white;
+    }
+
+    button {
+        height: 40px;
+        width: 380px;
+        margin: 15px 20px 0;
+        color: $orange-200;
+        font-size: 1.875rem;
+        font-weight: 700;
+        padding: 0;
+    }
+
+    button:hover {
+        color: $orange-200;
+    }
+
+    p {
+        font-size: 0.875rem;
+        color: $white;
+        margin: 15px 20px;
+    }
+}

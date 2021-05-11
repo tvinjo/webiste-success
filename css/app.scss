@@ -1,0 +1,25 @@
+@import 
+    // Font Awesome
+    './font-awesome/scss/fontawesome',
+    './font-awesome/scss/brands',
+    './font-awesome/scss/solid',
+
+    // Globals
+    './sass/globals/variables',
+    './sass/globals/base',
+    './sass/globals/breakpoints',
+    './sass/globals/fonts',
+    './sass/globals/icons',
+    './sass/globals/layout',
+
+    // Elements
+    './sass/elements/form',
+
+    // Components
+    './sass/components/cards',
+    './sass/components/header',
+    './sass/components/footer',
+
+    //plugins
+    './sass/plugins/slick.scss';
+
